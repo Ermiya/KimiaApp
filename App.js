@@ -35,7 +35,7 @@ import Tab1 from './src/components/Test/Tab1';
 const errorHandler = (e, isFatal) => {
   if (isFatal) {
     Alert.alert(
-        'خطای غیرمنتظره  رخ داده است',
+        'خطای غیرمنتظره رخ داده است',
         `
         Error: ${(isFatal) ? 'Fatal:' : ''} ${e.name} ${e.message}
 
