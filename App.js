@@ -21,11 +21,12 @@ import Favorite from './src/components/Favorite/Favorite';
 import AboutUs from './src/components/Main/AboutUs/AboutUs';
 import ContactUs from './src/components/Main/ContactUs/ContactUs';
 import Course from './src/components/Main/Course/Course';
-import Event from './src/components/Main/Even/Event';
+import Event from './src/components/Main/Event/Event';
 import FAQ from './src/components/Main/FAQ/FAQ';
 import Podcast from './src/components/Main/Podcast/Podcast';
 import Profile from './src/components/Main/Profile/Profile';
 import VideoList from './src/components/Main/Video/VideoList';
+import EventList from './src/components/Main/Event/EventList';
 import PlayVideo from './src/components/Main/Video/PlayVideo';
 import DrawerLayout from './src/components/Main/Profile/DrawerLayout';
 
@@ -105,7 +106,8 @@ export default class App extends Component<Props> {
            {/* <Scene key="tab1" component={Tab1} title="Tab1" initial/> */}
           <Scene key="testPage" component={TestPage} title="TestPage" />
           {/* <Scene key="testVideo" component={TestVideo} title="TestVideo" initial/> */}
-          <Scene key="splash" component={Splash} title="Splash" initial/>
+          <Scene key="splash" component={Splash} title="Splash" />
+          <Scene key="eventList" component={EventList} title="Event" initial/>
 
             <Scene key="login"     component={Login}     title="Login" />
             <Scene key="favorite"  component={Favorite}  title="favorite"/>
