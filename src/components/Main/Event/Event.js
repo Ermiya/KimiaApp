@@ -41,7 +41,7 @@ export default class Event extends Component {
             </CardItem>
     
             <CardItem>
-                <Text numberOfLines={3}  style={{ fontFamily:'IRANSansMobile',fontSize:14 }}>
+                <Text  style={{ fontFamily:'IRANSansMobile',fontSize:14 }}>
                   { event.Description }
                 </Text>
             </CardItem>
